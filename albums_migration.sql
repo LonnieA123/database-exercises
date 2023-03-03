@@ -4,16 +4,16 @@ DROP TABLE IF EXISTS albums;
 
     CREATE TABLE albums(
         id INT UNSIGNED NOT NULL AUTO_INCREMENT,
-        artist VARCHAR(50),
-        name VARCHAR(50),
-        release_date INT UNSIGNED,
-        sales FLOAT(6,2),
-        genre VARCHAR(30),
+        artist VARCHAR(1000),
+        name VARCHAR(1000),
+        release_date INT ,
+        sales FLOAT,
+        genre VARCHAR(1000),
         PRIMARY KEY (id)
     );
 
 DESCRIBE  albums;
 
-SELECT * from albums;
+
 
 
