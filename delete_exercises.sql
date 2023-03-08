@@ -23,3 +23,8 @@ WHERE artist = 'Eagles';
 
 DELETE FROM albums
 WHERE artist = 'Eagles';
+
+SELECT * FROM albums;
+
+ALTER TABLE albums
+ADD UNIQUE (name);
